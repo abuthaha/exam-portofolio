@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.thaha-pernik {
+    margin: auto;
+    overflow: hidden;
+    background-color: skyblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    justify-content: space-between;
+    width: 100%;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.active {
+    background-color: #04AA6D;
+}
+
+.toko {
+    /* position: absolute; */
+    text-align: center;
+}
+
+.judul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.virtual-keyboard {
+    width: 80px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    width: 100%;
+}
+
+.row {
+    margin: 10px;
+}
+
+.container { margin-bottom: 30px}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+   border: 1px solid #bbb;
+   text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+th {
+    background-color: #ddd;
+}
+th,td {
+    padding: 5px;
+}
+button {
+    cursor: pointer;
+}
+/*Initial style sort*/
+.tablemanager th.sorterHeader {
+    cursor: pointer;
+}
+.tablemanager th.sorterHeader:after {
+    content: " \f0dc";
+    font-family: "FontAwesome";
+}
+/*Style sort desc*/
+.tablemanager th.sortingDesc:after {
+    content: " \f0dd";
+    font-family: "FontAwesome";
+}
+/*Style sort asc*/
+.tablemanager th.sortingAsc:after {
+    content: " \f0de";
+    font-family: "FontAwesome";
+}
+
+#for_numrows {
+    padding: 10px;
+    float: left;
+}
+#for_filter_by {
+    padding: 10px;
+    float: right;
+}
+#pagesControllers {
+    display: block;
+    text-align: center;
+}
+
+.footer {
+    background-color: skyblue;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
+}

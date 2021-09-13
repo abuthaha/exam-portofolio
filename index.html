@@ -1,0 +1,388 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Digital</title>
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/flatly/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="css/custom.css" />
+	<!-- <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> -->
+	<!-- Include Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Style -->
+	<style type="text/css">
+		body {
+			font-family: "Roboto Condensed", Helvetica, sans-serif;
+			background-color: #f7f7f7;
+		}
+		.container {margin: auto; max-width: 95%;}
+		a {
+
+			text-decoration: none;
+		}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		table, th, td {
+		   border: 1px solid #bbb;
+		   text-align: left;
+		}
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+		th {
+			background-color: #ddd;
+		}
+		th,td {
+			padding: 5px;
+		}
+		button {
+			cursor: pointer;
+		}
+		/*Initial style sort*/
+		.tablemanager th.sorterHeader {
+			cursor: pointer;
+		}
+		.tablemanager th.sorterHeader:after {
+			content: " \f0dc";
+			font-family: "FontAwesome";
+		}
+		/*Style sort desc*/
+		.tablemanager th.sortingDesc:after {
+			content: " \f0dd";
+			font-family: "FontAwesome";
+		}
+		/*Style sort asc*/
+		.tablemanager th.sortingAsc:after {
+			content: " \f0de";
+			font-family: "FontAwesome";
+		}
+		#for_numrows {
+			padding: 10px;
+			float: left;
+		}
+		#for_filter_by {
+			padding: 10px;
+			float: right;
+		}
+		#pagesControllers {
+			display: block;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+    <div class="thaha-pernik">
+      <div class="toko">
+        <h1>Thaha Pernik</h1>
+        <p>Toko Digital Pilihan Anda, Menyediakan Berbagai Macam Kebutuhan, Dimanapun Anda Berada.</p>
+      </div>
+    </div>
+    <div class="pilihan">
+        <ul>
+          <li><a href="gadget.html">Gadget</a></li>
+          <li><a href="laptop.html">Laptop</a></li>
+          <li><a href="elektronik.html">Elektronik</a></li>
+          <li><a href="buku.html">Buku</a></li>
+          <li><a href="kesehatan.html">Kesehatan</a></li>
+          <li><a href="aksesoris.html">Aksesoris</a></li>
+          <li><a href="property.html">Property</a></li>
+          <li><a href="fashion.html">Fashion</a></li>
+          <li><a href="makananminuman.hmtl">Makanan Minuman</a></li>
+          <li><a href="atk.html">Perlengkapan Kantor</a></li>
+          <li><a href="digital.html">Produk Digital</a></li>
+          <li><a href="tiket.html">Tiket</a></li>
+          <li><a href="dapur.html">Dapur</a></li>
+          <li><a href="kendaraan.html">Kendaraan</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div class="judul">
+        <h1>Toko Digital Pilihan Anda</h3>
+    </div>
+    <div class="item">
+        <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="images/iphone.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Iphone 12 Pro Max</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/hp.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Samsung Note 20 Ultra</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/laptop.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Asus Zenbook Pro Duo</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+              </div>
+            </div>
+          </div>
+    </div>
+      <div class="lorem">
+        <div class="row">
+          <div class="col-xl-3">
+            <h3>Lorem 1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum error laboriosam voluptas ex quisquam veniam eius. Illum a nostrum sed minima dolorum, necessitatibus dicta ducimus, est eius illo accusamus blanditiis.</p>
+          </div>
+          <div class="col-xl-3">
+            <h3>Lorem 2</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum error laboriosam voluptas ex quisquam veniam eius. Illum a nostrum sed minima dolorum, necessitatibus dicta ducimus, est eius illo accusamus blanditiis.</p>
+          </div>
+          <div class="col-xl-3">
+            <h3>Lorem 3</h3>        
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum error laboriosam voluptas ex quisquam veniam eius. Illum a nostrum sed minima dolorum, necessitatibus dicta ducimus, est eius illo accusamus blanditiis.</p>
+          </div>
+          <div class="col-xl-3">
+            <h3>Lorem 4</h3>        
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum error laboriosam voluptas ex quisquam veniam eius. Illum a nostrum sed minima dolorum, necessitatibus dicta ducimus, est eius illo accusamus blanditiis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="virtual-keyboard">
+	      <input type="text" id="numbercontrol" value="1" min="-500" max="500" />
+	      <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	      <script type="text/javascript" src="./jquery-numbercontrol.js"></script>
+	      <script type="text/javascript">
+	      $(document).ready(function() {
+		    console.log('loading');
+		    $('#numbercontrol').numbercontrol();
+	      });
+	      </script>
+        <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();
+
+          </script>
+          <script>
+           try {
+            fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+            return true;
+            }).catch(function(e) {
+            var carbonScript = document.createElement("script");
+            carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+            carbonScript.id = "_carbonads_js";
+            document.getElementById("carbon-block").appendChild(carbonScript);});
+            } catch (error) {
+            console.log(error);
+            }
+          </script>
+      </div>
+  <div class="container">
+      <header>
+        <h1>Table Manager</h1>
+        <p>Ini adalah contoh penggunaan table plugin JavaScript untuk Final Portofolio Web Design</p>
+        <hr>
+      </header>
+    <!-- Table start -->
+    <table class="tablemanager">
+      <thead>
+        <tr>
+          <th class="disableSort">Number</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Date</th>
+          <th>Points</th>
+        <!-- <th class="disableFilterBy">Controls</th> -->
+        </tr>
+      </thead>
+    <tbody>
+      <tr>
+        <td class="prova">1</td>
+        <td class="prova">Sara</td>
+        <td class="prova">Jackson</td>
+        <td class="prova">08-06-1989</td>
+        <td class="prova">94</td>
+        <!-- <td class="prova"><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>John</td>
+        <td>Doe</td>
+        <td>10-05-1987</td>
+        <td>80</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Adam</td>
+        <td>Johnson</td>
+        <td>10-05-1987</td>
+        <td>50</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>11-11-1972</td>
+        <td>50</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>11-11-1972</td>
+        <td>50</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>11-11-1972</td>
+        <td>50</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>11-11-1972</td>
+        <td>50</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>11-11-1972</td>
+        <td>50</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>11-11-1972</td>
+        <td>50</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>11-11-1972</td>
+        <td>50</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>11-11-1972</td>
+        <td>50</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>11-11-1972</td>
+        <td>50</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>11-11-1972</td>
+        <td>50</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>11-11-1972</td>
+        <td>50</td>
+        <!-- <td><a href="">Edit</a></td> -->
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="footer">
+    <p>Copyright 2021 by Abdul Aziz. All Rights Reserved.</p>
+  </div>
+    <!-- jQuery -->
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- JS jQuery plugin -->
+    <script src="js/jquery-numbercontrol.js"></script>
+    <!-- js -->
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/tableManager.js"></script>
+	<script type="text/javascript">
+		// basic usage
+		$('.tablemanager').tablemanager({
+			firstSort: [[3,0],[2,0],[1,'asc']],
+			disable: ["last"],
+			appendFilterby: true,
+			dateFormat: [[4,"mm-dd-yyyy"]],
+			debug: true,
+			vocabulary: {
+    voc_filter_by: 'Filter By',
+    voc_type_here_filter: 'Filter...',
+    voc_show_rows: 'Rows Per Page'
+  },
+			pagination: true,
+			showrows: [5,10,20,50,100],
+			disableFilterBy: [1]
+		});
+		// $('.tablemanager').tablemanager();
+	</script>
+	<script>
+try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+    return true;
+  }).catch(function(e) {
+    var carbonScript = document.createElement("script");
+    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+    carbonScript.id = "_carbonads_js";
+    document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+} catch (error) {
+  console.log(error);
+}
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>
